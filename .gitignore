@@ -1,0 +1,10 @@
+
+.DS_Store
+filelist.json
+*.btk
+*.fcst
+*.trk
+*.nc
+track.richamp
+TrackRMW.txt
+Wind_Inp.txt
