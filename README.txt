@@ -1,16 +1,11 @@
 How to generate parametric wind and rain
 
-0. Make sure you have pipenv installed. https://pypi.org/project/pipenv/
-Enter the pipenv environment by typing
-"pipenv shell" inside the parametric-wind-generation folder
-You should see this after running pipenv shell. The enclosed value at the beginning shows you are in of a pipenv shell.
-IMPORTANT: After done working in a shell, exit the shell by typing "exit" and enter.
+0. Download necessary dependencies
+pip install numpy, metget, haversine, netCDF4
 
-(parametric-wind-generation) pranav@pranavs-Mac-mini parametric-wind-generation %
+Clone the repository
 
-Run pipenv install to download all needed dependencies. 
-If pipenv is not working, you can manaully download the dependencies. They are listed in the Pipfile.
-
+git clone git@github.com:pranavsai142/parametric-wind-generation.git
 
 
 1. Run metget to get track file. Change the domain variable to reflect
